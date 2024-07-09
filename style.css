@@ -1,0 +1,131 @@
+*
+{
+  font-family: Trebuchet MS;
+
+}
+
+p
+{
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+html
+{
+	background-color: #97c9f0;
+	
+}
+
+body
+{
+	background-image: url("images/cork2.png");
+	
+	
+	min-height: inherit;
+	height:800px;
+	width: 98% - 30px;
+	padding: 20px;
+	border: 10px groove gray;
+	margin: 1%;
+	
+	
+}
+
+.pin
+{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	border: 0px;
+	z-index: 10;
+	margin:0px;
+	background-image: radial-gradient(circle closest-side at 30% 30%, #f0bcb9 40%, #d62a1e 60%, #b01409 200%);
+}
+
+a
+{
+	text-decoration: initial;
+	font-weight: bold;
+	color: #509ced;
+	font-size: 25px;
+	transition: color 0.3s linear;
+}
+
+a:hover
+{
+	color: #9f81eb;
+}
+
+ul
+{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.title
+{
+	background-image: linear-gradient(to bottom, white 95%, #cccccc);
+	margin-left: 10%;
+	width: 65%;
+}
+
+.postit
+{
+	position: absolute;
+	background-image: linear-gradient(to bottom, #fcd703 95%, #bfa304);
+	margin-left: 10%;
+	width: 150px;
+	height: 150px;
+	z-index: 15;
+}
+
+.postitshadow
+{
+	position: absolute;
+	background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+	margin-left: 10%;
+	width: 150px;
+	height: 150px;
+	z-index: 5;
+}
+
+.sidebar
+{
+	background-image: linear-gradient(to bottom right, white 80%, #cccccc);
+	margin-left: 15%;
+	width: 30%;
+	float: left;
+}
+
+.contact
+{
+	background-image: linear-gradient(to bottom, white 95%, #cccccc);
+	margin-left: 10%;
+	margin-top: 80px;
+	width: 40%;
+	float: left;
+	
+}
+
+.contactslip
+{
+	writing-mode: vertical-rl;
+	vertical-align: center;
+	width:9.5%;
+	border-right: 3px dashed;
+	float:left;
+	height: 300px;
+	
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.contactslip a
+{
+	padding-top: 20px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+}
