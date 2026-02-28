@@ -50,6 +50,19 @@ body
 	
 }
 
+#tocpin1
+{
+	left:20px;
+	top:20px;
+}
+
+#tocpin2
+{
+	float:right;
+	left:-20px;
+	top:-5px
+}
+
 a
 {
 	text-decoration: initial;
@@ -96,6 +109,22 @@ ul
 	height: 150px;
 	z-index: 25;
 }
+
+#postit1
+{
+	left:55%;
+	top:125px;
+	z-index:100;
+	
+}
+
+#postit1shad
+{
+	left:55.5%;
+	top:131px;
+	z-index:99;
+}
+
 
 #postit2
 {
@@ -216,4 +245,88 @@ ul
 		left:5.5%;
 		top:481px;
 	}
+}
+
+@media screen and (max-width: 500px) {
+	body
+	{
+		height:750px;
+	}
+	
+	#postit1
+	{
+		left:35%;
+		top:175px;
+		z-index:100;
+		
+	}
+
+	#postit1shad
+	{
+		left:36.5%;
+		top:181px;
+		z-index:99;
+	}
+	
+	#postit2
+	{
+		left: -5%;
+		top:640px;
+	}
+	#postit2shad
+	{
+		left:-3.5%;
+		top:646px;
+	}
+	
+	.sidebar
+	{
+		margin-left: 5%;
+		width: 35%;
+		float: left;
+	}
+
+	.sidebar a
+	{
+		font-size: 12px;
+	}
+	
+	ul
+	{
+		padding-left:5%;
+		font-size: 15px;
+	}
+	
+	.contact
+	{
+		margin-left: 10%;
+		margin-top: 160px;
+		width: 50%;
+		float: left;
+		
+	}
+	
+	.contactslip a
+	{
+		font-size: 20px;
+	}
+	
+	.contactslip
+	{
+		border-right: 2px dashed;
+		float:left;
+		height: 200px;
+		
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	
+	h2 {
+		top:481px;
+		font-size: 16px;
+		padding-top: 20px;
+	}
+	
+	
+	
 }
