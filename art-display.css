@@ -1,0 +1,72 @@
+*
+{
+  font-family: Trebuchet MS;
+
+}
+
+p
+{
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+html
+{
+	background-color: #97c9f0;
+	
+}
+
+body
+{
+	background-image: url("images/cork2.png");
+	
+	
+	min-height: inherit;
+	height:800px;
+	width: 98% - 30px;
+	padding: 20px;
+	border: 10px groove gray;
+	margin: 1%;
+	
+	
+}
+
+.pin
+{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	border: 0px;
+	z-index: 10;
+	margin:0px;
+	background-image: radial-gradient(circle closest-side at 30% 30%, #f0bcb9 40%, #d62a1e 60%, #b01409 200%);
+}
+
+.title
+{
+	background-image: linear-gradient(to bottom, white 90%, #cccccc);
+	margin-left: 10%;
+	width: 65%;
+}
+
+.postit
+{
+	position: absolute;
+	background-image: linear-gradient(to bottom, #fcd703 95%, #bfa304);
+	margin-left: 10%;
+	width: 150px;
+	height: 150px;
+	z-index: 15;
+}
+
+.postitshadow
+{
+	position: absolute;
+	background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+	margin-left: 10%;
+	width: 150px;
+	height: 150px;
+	z-index: 5;
+}
