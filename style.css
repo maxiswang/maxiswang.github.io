@@ -101,6 +101,8 @@ ul
 {
 	left:25%;
 	top:500px;
+	cursor: pointer;
+	user-select: none;
 	
 }
 
