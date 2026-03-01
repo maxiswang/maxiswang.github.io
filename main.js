@@ -19,8 +19,8 @@ noteArr = [
 	"My favorite color used to be \"rainbow\"\nas a cop-out because I loved all colors.",
 	"My favorite color used to be yellow,\nbut it's now purple.",
 	"The main two colors in my wardrobe are\nblue and black.",
-	"I prefer \nCoca-Cola over Pepsi."
-	]
+	"I prefer \nCoca-Cola\nover Pepsi,\ntaste-wise."
+]
 
 
 window.onload = (event) => {
