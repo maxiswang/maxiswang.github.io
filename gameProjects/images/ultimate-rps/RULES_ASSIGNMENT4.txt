@@ -1,0 +1,18 @@
+The game starts with drawing four cards. You have the choice to redraw each of these cards once. (In card game speak, it's a mulligan.)
+Then, you decide who goes first with a round of RPS (Rock, Paper, Scissors).
+The anatomy of a turn is simple: Bitz, Untap, Draw, Attack.
+First, you update your Bitz counter. This counter starts at 1 on turn 1, and increases up until turn 8. So on turn 8, you set your Bitz counter to 8, and on turn 9, your Bitz is capped at 8. Use a d8 to keep track of this.
+Then, you untap your cards. All of your attack cards untap (This is borrowed from other games, but a tilted card is "tapped". You "untap" by straightening them.)
+Next, you draw a card. Easy.
+Now, let's go over what's on that card. Less easy.
+Each card a Bitz cost. You have a set amount of Bitz every turn, based on the Bitz counter you just updated.  A singular "Bitz" is still "Bitz", by the way.
+Cards have a name, a type, and a photo of what it looks like. This allows you to better visualize the world of Ultimate RPS. 
+Cards have a certain amount of health. Please use damage tokens to keep track of how much damage a card has taken. Or you can try to remember it and play a secondary game of gaslighting your opponent. I recommend the tokens.
+Cards have different damage numbers based on each damage type. When you attack, you choose either rock, paper, or scissors to attack with. In order to choose which to attack with, you literally play a game of rock paper scissors against your opponent, so they get a chance to defend. If the attacker wins, you deal normal damage. If you tie, you deal half damage. If the defender wins, you deal no damage. All attacks are rounded up to the nearest whole number.
+Next to the blood symbol, there are two numbers. You can increase the number of Bitz you can use in a turn by sacrificing a card. A card must be in play and untapped to be sacrificed. The first number is the number of Bitz the card gives if it is undamaged. The second number is the number of Bitz the card gives if it is damaged.
+Now, let's talk about how to defend. As mentioned before, you attack by playing a game of RPS. You get to choose which card attacks, but you also get to choose which card defends. If you do not wish to play RPS genuinely ten times a turn, you may attack in bulk, choosing one type to attack with for all cards. When selecting your line of defense for a bulk attack, choose in order which cards get attacked. This order of cards must end with your player card. This means you can use your player to tank attacks instead of the other cards if you wish.
+Next, we will go over the player card. You lose the game when your player card's health reaches 0. There are four masters you can play as.
+Players have a name, a picture, and a type. That's pretty standard for most things.
+Players have a certain amount of health. This health can be decreased by attacking the player and can be counted using the given health tokens. That's why I printed so many of them.
+Players have a special ability. Except for Joe.
+Players have a motto. This is just flavor text so you can get in character while you battle it out.
