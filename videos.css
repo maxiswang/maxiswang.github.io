@@ -36,19 +36,19 @@
 }
 
 
-.projL
+.noteL
 {
 	background-image: linear-gradient(to bottom right, white 80%, #cccccc);
-	margin-left: 5%;
-	width: 40%;
+	margin-left: 0%;
+	width: 45%;
 	float: left;
 }
 
-.projR
+.noteR
 {
 	background-image: linear-gradient(to bottom right, white 80%, #cccccc);
-	margin-right: 5%;
-	width: 40%;
+	margin-right: 0%;
+	width: 45%;
 	float: right;
 }
 
@@ -129,6 +129,31 @@
 	z-index:99;
 }
 
+.imgL 
+{
+	float: left;
+	background-image: linear-gradient(to bottom right, white 80%, #cccccc);
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 2.5%;
+}
+
+.imgR
+{
+	float: right;
+	background-image: linear-gradient(to bottom right, white 80%, #cccccc);
+	width: 40%;
+	margin-right: 5%;
+	margin-top: 2.5%;
+}
+
+.ratio {
+	width: 50%;
+	aspect-ratio: 16 / 9;
+	background: linear-gradient(to bottom right, white 80%, #cccccc);
+}
+
+
 @media screen and (max-width: 1200px) {
 	.text
 	{
@@ -137,7 +162,13 @@
 }
 
 @media screen and (max-width: 800px) {
-	.projL
+	.ratio {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		background: linear-gradient(to bottom right, white 80%, #cccccc);
+	}
+	
+	.noteL
 	{
 		background-image: linear-gradient(to bottom right, white 80%, #cccccc);
 		margin-left: 5%;
@@ -146,7 +177,25 @@
 		margin-top: 30px;
 	}
 
-	.projR
+	.noteR
+	{
+		background-image: linear-gradient(to bottom right, white 80%, #cccccc);
+		margin-right: 5%;
+		width: 90%;
+		float: right;
+		margin-top: 30px;
+	}
+	
+	.imgL
+	{
+		background-image: linear-gradient(to bottom right, white 80%, #cccccc);
+		margin-left: 5%;
+		width: 90%;
+		float: left;
+		margin-top: 30px;
+	}
+
+	.imgR
 	{
 		background-image: linear-gradient(to bottom right, white 80%, #cccccc);
 		margin-right: 5%;
