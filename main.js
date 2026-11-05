@@ -53,9 +53,8 @@ noteArr = [
 	"My internet role models are Louie Zong and Markiplier.",
 	"My main goal when I enter a thrift store is to find one piece of semi-niche merch.",
 	"I own two Blahaj sharks. One of them is smaller.",
-	"I can play the ukulele, but not well."
-	//"Yes, I'm a furry.\nSorry."
-	//"I often have realistic dreams and get deja-vu throughout the day of things that could happen."
+	"I can play the ukulele, but not well.",
+	"My father has a 6-year duolingo streak."
 ]
 
 
