@@ -1,0 +1,17 @@
+table
+{
+	width: 90%;
+	margin-left: 5%;
+}
+
+td
+{
+	width: 15%;
+	background: #ABABAB;
+}
+
+.cardImg
+{
+	width: 100%;
+	cursor: pointer;
+}
